@@ -2,23 +2,31 @@
     font-family: "Open Sans" , sans-serif;
     font-optical-sizing: auto;
 }
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    padding: 100px;
+}
 nav{
    justify-content: space-between;
    display: flex;
    align-items: center;
-   margin: 50px 200px;
+   margin: 5px 100px 200px 100px;
+  
+  
 }
 .nav-title{
     color: #4E47FF;
    font-weight: 800;
-   font-size: 25px;
+   font-size: 35px;
+   align-items: flex-start;
 }
 .btn-primary{
     background-color: #4E47FF;
     padding:  8px;
     color: white;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 2px solid white;
+    font-size: 25px;
 }
 .banner{
     text-align: center;
@@ -26,11 +34,62 @@ nav{
 .heading{
     color: #252432;
     font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 50px;
 
 }
 .second-baner{
     display: flex;
-    justify-content: space-between;
-    margin: 0 35px 0 200px;
-   
+    justify-content: space-around;
+    margin: 300px 0 0 100px;
+
+}
+
+.profile{
+    border-radius:45px  ;
+}
+.first-contant{
+justify-content: center;
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+.first-heading{
+    color: #252432;
+    font-size: 40px ;
+}
+.pragraph{
+    color: #acabb8;
+    font-size: 24px;
+}
+.join{
+    background-color: #dad9f1;
+    border-radius: 20px;
+    padding: 70px;
+    margin: 100px 200px;
+}
+.joined{
+    text-align: center;
+    font-size: 40px;
+}
+.box-ledar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+}
+.box{
+    text-align: center;
+    
+}
+.box-heading{
+    color: #4E47FF;
+    font-size: 80px;
+    margin-bottom: 4px;
+}
+.box-pra{
+    color:black;
+    margin-top: 0px;
+
 }
