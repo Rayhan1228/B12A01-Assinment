@@ -1,0 +1,36 @@
+.body{
+    font-family: "Open Sans" , sans-serif;
+    font-optical-sizing: auto;
+}
+nav{
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+   margin: 50px 200px;
+}
+.nav-title{
+    color: #4E47FF;
+   font-weight: 800;
+   font-size: 25px;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    padding:  8px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.banner{
+    text-align: center;
+}
+.heading{
+    color: #252432;
+    font-weight: bold;
+
+}
+.second-baner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+   
+}
