@@ -1,3 +1,9 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .body{
     font-family: "Open Sans" , sans-serif;
     font-optical-sizing: auto;
@@ -124,5 +130,116 @@ text-align: left;
   }
 
 
+  .last-body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .last-body {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 
+  .card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+
+  .stars img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .last-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .last-pra {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+  }
+
+  .reviewer {
+    display: flex;
+    align-items: center;
+  }
+
+  .reviewer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .reviewer-info {
+    font-size: 12px;
+    color: #777;
+  }
+
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .last-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 400px;
+
+  }
+  .logo{
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4E47FF;
+  }
+  .lasts-pragraph{
+    font-size: 16px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: rgb(154, 151, 151);
+
+  }
+  .nav-links{
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+
+  }
+  .nav-links a {
+    text-decoration: none;
+    font-style: 10px;
+    color: rgb(154, 151, 151);
+  }
